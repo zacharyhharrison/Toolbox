@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923A21CE2A36B3A8007EBE66 /* ScryfallRandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923A21CD2A36B3A8007EBE66 /* ScryfallRandomView.swift */; };
+		923A21D02A36B4CB007EBE66 /* ScryfallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923A21CF2A36B4CB007EBE66 /* ScryfallService.swift */; };
+		923A21D42A36B568007EBE66 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923A21D32A36B568007EBE66 /* Card.swift */; };
+		926F62E5285513430073B84D /* MTGToolboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F62E4285513430073B84D /* MTGToolboxApp.swift */; };
+		926F62E7285513430073B84D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926F62E6285513430073B84D /* ContentView.swift */; };
+		926F62E9285513460073B84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926F62E8285513460073B84D /* Assets.xcassets */; };
+		926F62EC285513460073B84D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926F62EB285513460073B84D /* Preview Assets.xcassets */; };
+		929BBC06285529FF007D962B /* CoinFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BBC05285529FF007D962B /* CoinFlipper.swift */; };
+		929BBC1628552D4B007D962B /* MTGToolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BBC1528552D4B007D962B /* MTGToolboxTests.swift */; };
+		929BBC1D2855307C007D962B /* CoinFlipResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BBC1C2855307C007D962B /* CoinFlipResultsView.swift */; };
+		929BBC1F28553267007D962B /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BBC1E28553267007D962B /* TextViews.swift */; };
+		929BBC212855345A007D962B /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BBC202855345A007D962B /* RoundedViews.swift */; };
+		929BBC232855348F007D962B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BBC222855348F007D962B /* Constants.swift */; };
+		929BBC2728557345007D962B /* CoinFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BBC2628557345007D962B /* CoinFlipView.swift */; };
+		929BBC29285576E6007D962B /* LifeCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BBC28285576E6007D962B /* LifeCounterView.swift */; };
+		929BBC30285588F5007D962B /* LifeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BBC2F285588F5007D962B /* LifeCounter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		929BBC1728552D4B007D962B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 926F62D9285513430073B84D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 926F62E0285513430073B84D;
+			remoteInfo = MTGToolbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		923A21CD2A36B3A8007EBE66 /* ScryfallRandomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryfallRandomView.swift; sourceTree = "<group>"; };
+		923A21CF2A36B4CB007EBE66 /* ScryfallService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryfallService.swift; sourceTree = "<group>"; };
+		923A21D32A36B568007EBE66 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		926F62E1285513430073B84D /* MTGToolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTGToolbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		926F62E4285513430073B84D /* MTGToolboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGToolboxApp.swift; sourceTree = "<group>"; };
+		926F62E6285513430073B84D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		926F62E8285513460073B84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		926F62EB285513460073B84D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		929BBC05285529FF007D962B /* CoinFlipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipper.swift; sourceTree = "<group>"; };
+		929BBC1328552D4B007D962B /* MTGToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTGToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		929BBC1528552D4B007D962B /* MTGToolboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGToolboxTests.swift; sourceTree = "<group>"; };
+		929BBC1C2855307C007D962B /* CoinFlipResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipResultsView.swift; sourceTree = "<group>"; };
+		929BBC1E28553267007D962B /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		929BBC202855345A007D962B /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		929BBC222855348F007D962B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		929BBC2628557345007D962B /* CoinFlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipView.swift; sourceTree = "<group>"; };
+		929BBC28285576E6007D962B /* LifeCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCounterView.swift; sourceTree = "<group>"; };
+		929BBC2F285588F5007D962B /* LifeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCounter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		926F62DE285513430073B84D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929BBC1028552D4B007D962B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923A21CC2A36B372007EBE66 /* Scryfall */ = {
+			isa = PBXGroup;
+			children = (
+				923A21CD2A36B3A8007EBE66 /* ScryfallRandomView.swift */,
+				923A21CF2A36B4CB007EBE66 /* ScryfallService.swift */,
+			);
+			path = Scryfall;
+			sourceTree = "<group>";
+		};
+		923A21D22A36B556007EBE66 /* Scryfall */ = {
+			isa = PBXGroup;
+			children = (
+				923A21D32A36B568007EBE66 /* Card.swift */,
+			);
+			path = Scryfall;
+			sourceTree = "<group>";
+		};
+		926F62D8285513430073B84D = {
+			isa = PBXGroup;
+			children = (
+				926F62E3285513430073B84D /* MTGToolbox */,
+				929BBC1428552D4B007D962B /* MTGToolboxTests */,
+				926F62E2285513430073B84D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		926F62E2285513430073B84D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				926F62E1285513430073B84D /* MTGToolbox.app */,
+				929BBC1328552D4B007D962B /* MTGToolboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926F62E3285513430073B84D /* MTGToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				926F62F2285514370073B84D /* App */,
+				926F62F4285514550073B84D /* Models */,
+				926F62F3285514490073B84D /* Views */,
+				926F62EA285513460073B84D /* Preview Content */,
+			);
+			path = MTGToolbox;
+			sourceTree = "<group>";
+		};
+		926F62EA285513460073B84D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				926F62EB285513460073B84D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		926F62F2285514370073B84D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				926F62E4285513430073B84D /* MTGToolboxApp.swift */,
+				926F62E8285513460073B84D /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		926F62F3285514490073B84D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				926F62E6285513430073B84D /* ContentView.swift */,
+				929BBC2A28557733007D962B /* CoinFlip */,
+				929BBC2B28557742007D962B /* LifeCounter */,
+				923A21CC2A36B372007EBE66 /* Scryfall */,
+				929BBC2C28557750007D962B /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		926F62F4285514550073B84D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				923A21D22A36B556007EBE66 /* Scryfall */,
+				929BBC05285529FF007D962B /* CoinFlipper.swift */,
+				929BBC2F285588F5007D962B /* LifeCounter.swift */,
+				929BBC222855348F007D962B /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		929BBC1428552D4B007D962B /* MTGToolboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				929BBC1528552D4B007D962B /* MTGToolboxTests.swift */,
+			);
+			path = MTGToolboxTests;
+			sourceTree = "<group>";
+		};
+		929BBC2A28557733007D962B /* CoinFlip */ = {
+			isa = PBXGroup;
+			children = (
+				929BBC2628557345007D962B /* CoinFlipView.swift */,
+				929BBC1C2855307C007D962B /* CoinFlipResultsView.swift */,
+			);
+			path = CoinFlip;
+			sourceTree = "<group>";
+		};
+		929BBC2B28557742007D962B /* LifeCounter */ = {
+			isa = PBXGroup;
+			children = (
+				929BBC28285576E6007D962B /* LifeCounterView.swift */,
+			);
+			path = LifeCounter;
+			sourceTree = "<group>";
+		};
+		929BBC2C28557750007D962B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				929BBC1E28553267007D962B /* TextViews.swift */,
+				929BBC202855345A007D962B /* RoundedViews.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		926F62E0285513430073B84D /* MTGToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926F62EF285513460073B84D /* Build configuration list for PBXNativeTarget "MTGToolbox" */;
+			buildPhases = (
+				926F62DD285513430073B84D /* Sources */,
+				926F62DE285513430073B84D /* Frameworks */,
+				926F62DF285513430073B84D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTGToolbox;
+			productName = MTGToolbox;
+			productReference = 926F62E1285513430073B84D /* MTGToolbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		929BBC1228552D4B007D962B /* MTGToolboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929BBC1928552D4B007D962B /* Build configuration list for PBXNativeTarget "MTGToolboxTests" */;
+			buildPhases = (
+				929BBC0F28552D4B007D962B /* Sources */,
+				929BBC1028552D4B007D962B /* Frameworks */,
+				929BBC1128552D4B007D962B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929BBC1828552D4B007D962B /* PBXTargetDependency */,
+			);
+			name = MTGToolboxTests;
+			productName = MTGToolboxTests;
+			productReference = 929BBC1328552D4B007D962B /* MTGToolboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926F62D9285513430073B84D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					926F62E0285513430073B84D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					929BBC1228552D4B007D962B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 926F62E0285513430073B84D;
+					};
+				};
+			};
+			buildConfigurationList = 926F62DC285513430073B84D /* Build configuration list for PBXProject "MTGToolbox" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 926F62D8285513430073B84D;
+			productRefGroup = 926F62E2285513430073B84D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				926F62E0285513430073B84D /* MTGToolbox */,
+				929BBC1228552D4B007D962B /* MTGToolboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		926F62DF285513430073B84D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926F62EC285513460073B84D /* Preview Assets.xcassets in Resources */,
+				926F62E9285513460073B84D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929BBC1128552D4B007D962B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		926F62DD285513430073B84D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929BBC29285576E6007D962B /* LifeCounterView.swift in Sources */,
+				923A21CE2A36B3A8007EBE66 /* ScryfallRandomView.swift in Sources */,
+				929BBC212855345A007D962B /* RoundedViews.swift in Sources */,
+				929BBC06285529FF007D962B /* CoinFlipper.swift in Sources */,
+				923A21D42A36B568007EBE66 /* Card.swift in Sources */,
+				929BBC1D2855307C007D962B /* CoinFlipResultsView.swift in Sources */,
+				923A21D02A36B4CB007EBE66 /* ScryfallService.swift in Sources */,
+				926F62E7285513430073B84D /* ContentView.swift in Sources */,
+				929BBC2728557345007D962B /* CoinFlipView.swift in Sources */,
+				929BBC232855348F007D962B /* Constants.swift in Sources */,
+				929BBC1F28553267007D962B /* TextViews.swift in Sources */,
+				926F62E5285513430073B84D /* MTGToolboxApp.swift in Sources */,
+				929BBC30285588F5007D962B /* LifeCounter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929BBC0F28552D4B007D962B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929BBC1628552D4B007D962B /* MTGToolboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		929BBC1828552D4B007D962B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 926F62E0285513430073B84D /* MTGToolbox */;
+			targetProxy = 929BBC1728552D4B007D962B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		926F62ED285513460073B84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		926F62EE285513460073B84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		926F62F0285513460073B84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MTGToolbox/Preview Content\"";
+				DEVELOPMENT_TEAM = TT7G985K2A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zatchary.MTGToolbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		926F62F1285513460073B84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MTGToolbox/Preview Content\"";
+				DEVELOPMENT_TEAM = TT7G985K2A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zatchary.MTGToolbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		929BBC1A28552D4B007D962B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TT7G985K2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zatchary.MTGToolboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTGToolbox.app/MTGToolbox";
+			};
+			name = Debug;
+		};
+		929BBC1B28552D4B007D962B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TT7G985K2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zatchary.MTGToolboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTGToolbox.app/MTGToolbox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		926F62DC285513430073B84D /* Build configuration list for PBXProject "MTGToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926F62ED285513460073B84D /* Debug */,
+				926F62EE285513460073B84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926F62EF285513460073B84D /* Build configuration list for PBXNativeTarget "MTGToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926F62F0285513460073B84D /* Debug */,
+				926F62F1285513460073B84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929BBC1928552D4B007D962B /* Build configuration list for PBXNativeTarget "MTGToolboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929BBC1A28552D4B007D962B /* Debug */,
+				929BBC1B28552D4B007D962B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926F62D9285513430073B84D /* Project object */;
+}
